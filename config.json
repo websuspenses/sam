@@ -1,0 +1,33 @@
+{
+  "production":{
+    "port":"3002",
+    "mongodb":{
+      "host":"localhost",
+      "port":"27017",
+      "username":"admin",
+      "password":"admin",
+      "database":"sam"
+    }
+
+  },
+  "development":{
+    "port":"3000",
+    "mongodb":{
+      "host":"localhost",
+      "port":"27017",
+      "username":"",
+      "password":"",
+      "database":"sam"
+    }
+  },
+  "test":{
+    "port":"3001",
+    "mongodb":{
+      "host":"localhost",
+      "port":"27017",
+      "username":"",
+      "password":"",
+      "database":"sam"
+    }
+  }
+}
